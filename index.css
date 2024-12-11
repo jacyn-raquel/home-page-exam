@@ -159,3 +159,24 @@ footer {
   }
 }
 
+@media (min-width: 1200px) {
+  #hero-section .carousel-caption {
+    top: 25%; /* Adjust vertical position */
+    left: 50%;
+    transform: translate(-50%, -25%); /* Centering with larger adjustment */
+  }
+
+  #hero-section .carousel-caption h1 {
+    font-size: 3.5rem; /* Increase heading size */
+  }
+
+  #hero-section .carousel-caption p {
+    font-size: 1.25rem; /* Increase paragraph size */
+  }
+
+  #hero-section .button-container .btn {
+    font-size: 1.1rem; /* Increase button text size */
+    padding: 0.75rem 1.5rem; /* Add padding for a larger button */
+  }
+}
+
