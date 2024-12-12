@@ -55,32 +55,32 @@ footer {
 
 
 /*IDs*/
-#hero-section {
+#hero {
   position: relative;
   height: 60vh; 
   overflow: hidden;
 }
 
-#hero-section .carousel-inner {
+#hero .carousel-inner {
   height: 100%; 
 }
 
-#hero-section .carousel-item img {
+#hero .carousel-item img {
   object-fit: cover; 
   width: 100%;
   height: 100%; 
 }
 
-#hero-section .carousel-caption {
+#hero .carousel-caption {
   padding: 20px;
 }
 
 
-#hero-section .carousel-caption h1 {
+#hero .carousel-caption h1 {
   font-size: 2.5rem; 
 }
 
-#hero-section .carousel-caption p {
+#hero .carousel-caption p {
   font-size: 1rem; 
 }
 #hero-items {
@@ -88,7 +88,7 @@ footer {
 }
 
 
-#hero-section img {
+#hero img {
 	max-height: 80%;
 	object-fit: cover;
 	
@@ -119,62 +119,62 @@ footer {
 /*MEDIA QUERIES*/
 
 @media (max-width: 768px) {
-  #hero-section .carousel-caption {
+  #hero .carousel-caption {
     top: 30%; 
     left: 50%;
     transform: translate(-50%, -30%);
   }
 
-  #hero-section .carousel-caption h1 {
+  #hero .carousel-caption h1 {
     font-size: 2rem; 
   }
 
-  #hero-section .carousel-caption p {
+  #hero .carousel-caption p {
     font-size: 1rem; 
   }
 
-  #hero-section .button-container {
+  #hero .button-container {
     display: flex;
     flex-direction: column; 
     align-items: center; 
   }
 
-  #hero-section .button-container .btn {
+  #hero .button-container .btn {
     width: 100%; /* Full width for buttons */
     margin-bottom: 0.5rem; 
   }
 }
 
 @media (max-width: 576px) {
-  #hero-section .carousel-caption {
+  #hero .carousel-caption {
     top: 20%; 
   }
 
-  #hero-section .carousel-caption h1 {
+  #hero .carousel-caption h1 {
     font-size: 1.5rem; 
   }
 
-  #hero-section .carousel-caption p {
+  #hero .carousel-caption p {
     font-size: 0.875rem; 
   }
 }
 
 @media (min-width: 1200px) {
-  #hero-section .carousel-caption {
+  #hero .carousel-caption {
     top: 25%; /* Adjust vertical position */
     left: 50%;
     transform: translate(-50%, -25%); /* Centering with larger adjustment */
   }
 
-  #hero-section .carousel-caption h1 {
+  #hero .carousel-caption h1 {
     font-size: 3.5rem; /* Increase heading size */
   }
 
-  #hero-section .carousel-caption p {
+  #hero .carousel-caption p {
     font-size: 1.25rem; /* Increase paragraph size */
   }
 
-  #hero-section .button-container .btn {
+  #hero .button-container .btn {
     font-size: 1.1rem; /* Increase button text size */
     padding: 0.75rem 1.5rem; /* Add padding for a larger button */
   }
